@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "net.flow9.dcjt.chat_app"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "net.flow9.dcjt.chat_app"
