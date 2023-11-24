@@ -31,7 +31,7 @@ public class RegisterActivity extends AppCompatActivity {
         et_password = findViewById(R.id.et_password);
         register = findViewById(R.id.register);
         mfirebaseAuth = FirebaseAuth.getInstance();
-        mDatabaseRef = FirebaseDatabase.getInstance().getReference("kkk");
+        mDatabaseRef = FirebaseDatabase.getInstance().getReference();
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override
